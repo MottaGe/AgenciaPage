@@ -1,8 +1,18 @@
-main{
+html{
     font-family: 'Brawler', serif;
     background-color: #0F0E17;
 }
 
+h1{
+    font-size: 28;
+}
+
 .apresentacao h1{
+    color: #fffffe;
+    text-align: center;
+    margin: 1px 0;
+}
+
+.apresentacao p{
     color: #fffffe;
 }
