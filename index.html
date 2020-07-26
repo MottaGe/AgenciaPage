@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>motta consultoria</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Brawler&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1><img src="logo.png" alt="logo"></h1>
+    </header>
+    <main>
+        <section class="apresentacao">
+            <h1>Quem sou eu</h1>
+            <img src="foto.jpg" alt="foto">
+            <p class="txtApresentacao"> texte Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit mi. Integer posuere efficitur ante, non aliquam libero sollicitudin ut. Sed metus tellus, molestie et interdum nec, euismod nec libero. Maecenas pellentesque diam magna, sed cursus risus pellentesque ac. Vestibulum hendrerit nibh tempor sagittis consequat. Nunc pulvinar vestibulum ligula id eleifend. Proin non interdum lacus, eu faucibus lectus. Vestibulum id tempus magna.
+
+                Pellentesque ut dui odio. Vestibulum nec porttitor magna, ut molestie velit. Cras vel erat pellentesque, pretium ante eget, faucibus quam. Aliquam posuere urna non augue lobortis, non pulvinar tortor dapibus. In vel mi tellus. Sed placerat dolor ut metus dictum commodo. Nam ut ornare dui, at luctus eros. Integer nulla magna, accumsan sed venenatis id, tincidunt vitae magna. Suspendisse potenti. Maecenas rhoncus lorem rhoncus, efficitur velit ut, pretium purus. Curabitur faucibus sit amet nibh eget tempor. Integer dapibus libero tincidunt elementum cursus.
+                
+                Nunc ut massa fermentum, auctor quam quis, tristique ante. Sed egestas hendrerit ultricies. Maecenas congue mauris in est blandit aliquam. Donec efficitur efficitur fringilla. Nam facilisis tincidunt lectus, sit amet fermentum tellus tristique sed. Sed pretium sed lacus at porttitor. Etiam nec lacinia metus, sed egestas urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris at aliquet lectus. Ut sodales ullamcorper libero, non commodo tellus viverra in. Aenean a sem fringilla, scelerisque nisl quis, mattis sem. Quisque eleifend lobortis elit, quis finibus nisl commodo nec. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus et elit eget erat consectetur pretium at sit amet ligula. Integer orci sem, porta sit amet posuere in, tempor a sem. Ut vulputate ultrices nunc eu feugiat.
+            </p>
+
+        </section>
+        <ul class="trabalhos">
+            <li>
+                <h2>Monique Mega Hair</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit mi. Integer posuere efficitur ante, non aliquam libero sollicitudin ut. Sed metus tellus, molestie et interdum nec, euismod nec libero. Maecenas pellentesque diam magna, sed cursus risus pellentesque ac.    
+                </p>
+                <div class="antes">
+                    <img src="carrosel.png" alt="carrosel antes">
+                </div>
+                <div class="depois">
+                    <img src="carrosel.png" alt="carrosel depois">
+                </div>
+
+            </li>
+        </ul>
+        <form class="contato">
+                    
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" class="input-padrao" required>
+        
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required>
+        
+            <label for="tel">telefone</label>
+            <input type="tel" id="tel" class="input-padrao" required>
+        
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+        
+        <fieldset>
+            <legend>Como prefere o nosso contato?</legend>
+            <label for="radio-email" class="checkbox">
+                <input type="radio" name="contato" value="email" id="radio-email" >
+                Email
+            </label>
+        
+            <label for="radio-telefone" class="checkbox">
+                <input type="radio" name="contato" value="telefone" id="radio-telefone"> 
+                Telefone
+            </label>
+        
+            <label for="radio-whatsapp" class="checkbox">
+                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                WhatsApp
+            </label>
+        </fieldset>
+
+        <fildset>
+            <legend>Qual horário prefere ser atendido?</legend>
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+        </fildset>
+
+        <label class="checkbox">
+            <input type="checkbox">
+            Gostaria de receber nossas novidades por email?
+        </label>
+
+
+        <!--<label for="data"> data e hora </label>-->
+        <!--<input type="data" id="data"-->
+
+        <input type="submit" value="Enviar formulário" class="enviar"> 
+    </form>
+    </main>
+</body>
+</html>
