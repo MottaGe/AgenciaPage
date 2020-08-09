@@ -3,16 +3,25 @@ html{
     background-color: #0F0E17;
 }
 
+.text{
+    color: #fffffe;
+}
+
 h1{
     font-size: 28;
+    color: #fffffe;
+}
+
+p{
+    font-size: 18;   
 }
 
 .apresentacao h1{
-    color: #fffffe;
+    
     text-align: center;
     margin: 1px 0;
 }
 
 .apresentacao p{
-    color: #fffffe;
+    
 }
