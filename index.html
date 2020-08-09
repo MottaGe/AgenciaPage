@@ -15,7 +15,7 @@
     <main>
         <section class="apresentacao">
             <h1>Quem sou eu</h1>
-            <img src="foto.jpg" alt="foto">
+            <img class="foto" src="./imagens/foto.jpeg" alt="foto">
             <p class="txtApresentacao"> texte Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit mi. Integer posuere efficitur ante, non aliquam libero sollicitudin ut. Sed metus tellus, molestie et interdum nec, euismod nec libero. Maecenas pellentesque diam magna, sed cursus risus pellentesque ac. Vestibulum hendrerit nibh tempor sagittis consequat. Nunc pulvinar vestibulum ligula id eleifend. Proin non interdum lacus, eu faucibus lectus. Vestibulum id tempus magna.
 
                 Pellentesque ut dui odio. Vestibulum nec porttitor magna, ut molestie velit. Cras vel erat pellentesque, pretium ante eget, faucibus quam. Aliquam posuere urna non augue lobortis, non pulvinar tortor dapibus. In vel mi tellus. Sed placerat dolor ut metus dictum commodo. Nam ut ornare dui, at luctus eros. Integer nulla magna, accumsan sed venenatis id, tincidunt vitae magna. Suspendisse potenti. Maecenas rhoncus lorem rhoncus, efficitur velit ut, pretium purus. Curabitur faucibus sit amet nibh eget tempor. Integer dapibus libero tincidunt elementum cursus.
@@ -24,6 +24,8 @@
             </p>
 
         </section>
+
+        <section>
         <ul class="trabalhos">
             <li>
                 <h2>Monique Mega Hair</h2>
@@ -39,6 +41,9 @@
 
             </li>
         </ul>
+        </section>
+        
+        <section>
         <form class="contato">
                     
             <label for="nome">Nome Completo</label>
@@ -51,7 +56,7 @@
             <input type="tel" id="tel" class="input-padrao" required>
         
             <label for="mensagem">Mensagem</label>
-            <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+            <textarea cols="70" rows="10" id="mensagem" class="input-mensagem"></textarea>
         
         <fieldset>
             <legend>Como prefere o nosso contato?</legend>
@@ -73,7 +78,7 @@
 
         <fildset>
             <legend>Qual horário prefere ser atendido?</legend>
-            <select>
+            <select class="select">
                 <option>Manhã</option>
                 <option>Tarde</option>
                 <option>Noite</option>
@@ -91,6 +96,7 @@
 
         <input type="submit" value="Enviar formulário" class="enviar"> 
     </form>
+    </section>
     </main>
 </body>
 </html>
