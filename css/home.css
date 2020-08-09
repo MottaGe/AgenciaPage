@@ -12,6 +12,17 @@ h1, h2, h3, h4, h5, h6{
     font-size: 36px;
     color: var(--textP-color);
     text-align: center;
+.text{
+    color: #fffffe;
+}
+
+h1{
+    font-size: 28;
+    color: #fffffe;
+}
+
+p{
+    font-size: 18;   
 }
 
 p{
@@ -96,3 +107,4 @@ ul{
     list-style-type: none;
 }
 
+}
