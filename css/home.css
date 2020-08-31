@@ -10,19 +10,24 @@ html{
     background-color: var(--background-color);
 }
 
-h1, h2, h3, h4, h5, h6{
+h1 {
     font-size: 36px;
-    color: var(--text-color);
+    color: #FFFFFF;
     text-align: center;
 }
+
+h2 {
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
 .text{
     color: var(--text-color);
 }
 
-h1{
-    font-size: 28;
-    color: #fffffe;
-}
+
 
 p{
     font-size: 18;   
