@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +8,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Brawler&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body >
     <header>
         <h1><img src="logo.png" alt="logo"></h1>
+
+        <label for="input-dark-mode">
+            <a class="button"><img id="luz" src="./imagens/ideia.svg"> </a>
+        </label>
+        <input type="checkbox" id="input-dark-mode">
     </header>
     <main>
         <section class="apresentacao">
@@ -31,9 +36,11 @@
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit mi. Integer posuere efficitur ante, non aliquam libero sollicitudin ut. Sed metus tellus, molestie et interdum nec, euismod nec libero. Maecenas pellentesque diam magna, sed cursus risus pellentesque ac.    
                 </p>
-                <div class="antes">
-                    <img src="carrosel.png" alt="carrosel antes">
-                </div>
+                <figure id="antes">
+                <img src="./imagens/paisagem.jpg">
+                <img src="./imagens/download (1).jpeg">
+                <img src="./imagens/download.jpeg">
+                </figure>
                 <div class="depois">
                     <img src="carrosel.png" alt="carrosel depois">
                 </div>
@@ -95,6 +102,10 @@
     </section>
     </main>
 </body>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/dark.js"></script>
+<script src="./js/script.js"></script>
 </html>
 
 <!-- action="https://getform.io/f/7f2e4bdc-f526-4025-8a78-5f496bc099e0" method="POST"-->
