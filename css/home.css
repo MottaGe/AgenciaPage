@@ -298,3 +298,7 @@ td{
     border: none;
     cursor: pointer;
 }
+
+.dark #atelie{
+    background: var(--dark-color);
+}
