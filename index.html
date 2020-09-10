@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ge Motta Agencia</title>
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Brawler&display=swap" rel="stylesheet">
 
 </head>
@@ -32,16 +34,17 @@
             <li>
                 <h2>Monique Mega Hair</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit mi. Integer posuere efficitur ante, non aliquam libero sollicitudin ut. Sed metus tellus, molestie et interdum nec, euismod nec libero. Maecenas pellentesque diam magna, sed cursus risus pellentesque ac.    
+                    A Monique Mega Hair foi minha primeira cliente de gerenciamento. Começamos com uma simples limpeza de feed, onde suas fotos anteriores possuíam textos, e isso pesava muito. Deixava o feed poluído. Mas não só as fotos, a bio e foto de perfil estavam precisando de um retoque. Após a limpeza do feed, criei os destaques, desde a arte até o conteúdo, e então fechamos o contrato de gerenciamento, o qual eu faria os posts para ela. Alguns conteúdos criados: "Tenho o cabelão dos sonhos! E agora?" sobre cuidados com o Mega Hair e "Como funciona o Mega Hair?" para explicar as coisas mais básicas, como métodos e tempo de manutenção.
                 </p>
-                <figure id="antes">
-                <img src="./imagens/paisagem.jpg">
-                <img src="./imagens/download (1).jpeg">
-                <img src="./imagens/download.jpeg">
-                </figure>
-                <div class="depois">
-                    <img src="carrosel.png" alt="carrosel depois">
-                </div>
+                <br><button  id="ModalM" class="enviar btnModal">ver fotos</button>
+
+                <h2>Ateliê Bella Unhas</h2>
+                <p>
+                    Passando de Instituto Bella para Ateliê Bella Unhas, esta cliente foi meu primeiro Rebranding. Com a intenção de criar uma marca que representasse um estilo de vida, o estilo "Bella" de ser, usei elementos como a mão segurando um esmalte com traços finos para remeter à delicadeza da arte das unhas, e deixei as unhas em destaque com a intenção de chamar a atenção.
+                </p>
+                <br><button  id="ModalA" class="enviar btnModal">ver fotos</button>
+                 
+                
 
             </li>
         </ul>
@@ -65,7 +68,7 @@
         <fieldset>
             <legend>Como prefere o nosso contato?</legend>
             <label for="radio-email" class="checkbox">
-                <input type="radio" name="contato" value="email" id="radio-email" >
+                <input type="radio" name="contato" value="email" id="radio-email" checked>
                 Email
             </label>
         
@@ -75,7 +78,7 @@
             </label>
         
             <label for="radio-whatsapp" class="checkbox">
-                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" >
                 WhatsApp
             </label>
         </fieldset>
@@ -95,14 +98,74 @@
         <!--<label for="data"> data e hora </label>-->
         <!--<input type="data" id="data"-->
 
-        <br><input type="submit" value="Enviar formulário" class="enviar"> 
+        <br><input  type="submit" id="" value="Enviar formulário" class="enviar "> 
     </form>
     </section>
+    <!-- Modal Monique -->
+    <div class="modalMoni" id="modal-moni">
+        <div class="moni" id="moni">
+            <div class="cabecalhoModal">
+                <p>Monique Mega Hair</p>
+                <button type="button" id="close" class="close">Fechar</button>
+            </div>
+            <div class="bodyModal">
+                <p>Antes</p>
+                
+                <img src="./imagens/monique/antes/feed2.png"></li> 
+                <img src="./imagens/monique/antes/people1.jpeg"></li>
+                <img src="./imagens/monique/antes/people2.jpeg"></li>
+                <img src="./imagens/monique/antes/people3.jpeg"></li>
+                
+                <p>Depois</p>
+                <img src="./imagens/monique/depois/feed.png">
+                <img src="./imagens/monique/depois/people1.jpeg"></li>
+                <img src="./imagens/monique/depois/people2.jpeg"></li>
+                <img src="./imagens/monique/depois/people3.jpeg"></li>
+
+            </div>
+        </div>
+    </div>
+    <!--Fim modal Monique-->
+
+
+    <!--Modal atelie-->
+    <div class="modalAtelie" id="modal-atelie">
+        <div class="atelie">
+            <div class="cabecalhoModal">
+                <p>Ateliê Bella Unhas</p>
+                <button type="button" id="Fechar" class="close">Fechar</button>
+            </div>
+            <div class="bodyModal">
+                <table>
+                    <tr>
+                        <td><img id="atelieImg" src="./imagens/atelie/logoAntigo.jpeg"></td>
+                    
+                
+                
+                        <td><img id="atelieImg" src="./imagens/atelie/logo.jpeg"></td>
+                        
+                        
+               
+                        <td><img id="atelieImg" src="./imagens/atelie/logoinsta.jpeg"></td>
+                    </tr>
+                    <tr>
+                        <td><p>Logo antes de rebranding</p></td>
+                        <td><p>Logo apos o rebranding</p></td>
+                        <td><p>Logo responsivo</p></td>
+                    </tr>
+                </table>
+                
+
+            </div>
+        </div>
+    </div>
+    <!--Fim modal atelie-->
     </main>
 </body>
 
-<script src="./js/jquery.js"></script>
-<script src="./js/jquery.mask.js"></script>
+<script src="./js/jquery/jquery.js"></script>
+<script src="./js/jquery/jquery.mask.js"></script>
+<script src="./js/jquery/slick.min.js"></script>
 
 <script src="./js/mask.js"></script>
 <script src="./js/dark.js"></script>
