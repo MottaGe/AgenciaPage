@@ -6,6 +6,7 @@
 }
 
 html{
+    width: 100%;
     font-family: 'Brawler', serif;
     background-color: var(--background-color);
 }
@@ -21,12 +22,6 @@ h2 {
     color: #FFFFFF;
     text-align: center;
 }
-
-
-.text{
-    color: var(--text-color);
-}
-
 
 
 p{
@@ -51,9 +46,6 @@ section{
     margin: 0 auto;
 }
 
-.apresentacao{
-    
-}
 
 .foto{
     height: auto;
@@ -104,6 +96,7 @@ form label, form legend {
 .checkbox, .select{
     padding: 5px 10px;
     margin:0 0 10px;
+    cursor: pointer;
 }
 
 .enviar{
@@ -166,22 +159,7 @@ ul{
 }
 
 
-@media(max-width:500px){
-    section{
-        width: 70%;
-    }
 
-    .foto{
-        display: flex;
-        align-items: center;
-        margin: 10px auto 10px auto;
-        float: none;
-    }
-
-    p{
-        text-align: center;
-    }
-}
 
 
 .modalMoni{

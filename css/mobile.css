@@ -1,0 +1,52 @@
+@media(max-width:500px){
+    
+    section{
+        width: 75%;
+    }
+
+    .foto{
+        display: flex;
+        align-items: center;
+        margin: 10px auto 10px auto;
+        float: none;
+    }
+
+    p{
+        text-align: center;
+        
+    }
+
+    #luz{
+        
+        width: 15%;
+    }
+
+
+    textarea{
+        width: 200px;
+    }
+    
+    
+    form label, form legend {
+        display:block;
+        font-size: 20px;
+        margin: 10px 0 10px;
+        color: var(--text-color);
+    }
+    
+    .input-padrao{
+        
+        width: 200px;
+        
+    }
+    
+    .checkbox, .select{
+        padding-right: 0;
+    }
+    
+    .enviar{
+        margin-top: 10px;
+    }
+
+
+}
