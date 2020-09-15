@@ -1,17 +1,4 @@
-/*
-function modalMoni(modalM){
-  const modal = document.getElementById(modalM);
-  modal.addEventListener('click', function(){
-    console.log("to aqui")
-    
-  });
-};
 
-const mm = document.querySelector('.btnModal');
-mm.addEventListener('click', function(){ 
-  modalMoni('modal-moni')
-});
-*/
 
 document.addEventListener('DOMContentLoaded', () => {
   const Modal = document.getElementById('modal-moni');
