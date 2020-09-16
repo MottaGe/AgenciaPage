@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{font-family:'BookmanOldStyle';}
+	.st2{font-size:147.8587px;}
+	.st3{stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
+	.st4{font-family:'BellMT';}
+	.st5{font-size:134.5037px;}
+	.st6{font-size:42.9267px;}
+	.st7{fill:url(#SVGID_1_);stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st8{stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<rect x="583.82" y="559.09" class="st0" width="701.4" height="173.08"/>
+<text transform="matrix(0.9792 0 0 1 583.8174 664.9512)" class="st1 st2">Ge Motta</text>
+<line class="st3" x1="506.4" y1="732.51" x2="1324.11" y2="732.05"/>
+<rect x="506.4" y="785.01" class="st0" width="905.86" height="142.17"/>
+<text transform="matrix(0.9792 0 0 1 506.3984 874.8623)" class="st4 st5">A G Ê N C I A </text>
+<rect x="709.81" y="971.49" class="st0" width="354.96" height="51.51"/>
+<text transform="matrix(0.9792 0 0 1 709.8096 1000.1621)" class="st4 st6">O céu é só o começo.</text>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="800.3539" y1="170.4207" x2="1067.9485" y2="438.0152">
+		<stop  offset="0.1296" style="stop-color:#B56576"/>
+		<stop  offset="0.6534" style="stop-color:#E56B6F"/>
+		<stop  offset="0.9286" style="stop-color:#EAAC8B"/>
+	</linearGradient>
+	<circle class="st7" cx="934.15" cy="304.22" r="189.22"/>
+	<g>
+		<path class="st8" d="M1071.04,203.96c1.54-5.59-5.47-10.3-12.31-8.26l-296.62,88.51c-3.57,1.07-5.93,3.74-5.94,6.73
+			c-0.01,2.99,2.34,5.67,5.91,6.75l83.33,25.16v79.24c0,3.34,2.94,6.25,7.1,7.02c4.13,0.77,8.44-0.77,10.38-3.77l34.46-53.46
+			l84.1,48.79c5.12,2.97,12.47,1.08,14.33-3.69C1074.3,195.71,1070.9,204.46,1071.04,203.96L1071.04,203.96z M997.82,229.32
+			l-144.5,80.44l-62.17-18.77L997.82,229.32z M863.86,321.61l125.95-70.12c-108.38,89.37-102.72,84.67-103.19,85.17
+			c-0.7,0.74,1.22-2.14-22.76,35.06V321.61z M981.93,382.97l-74.03-42.95l133.85-110.38L981.93,382.97z"/>
+	</g>
+</g>
+</svg>

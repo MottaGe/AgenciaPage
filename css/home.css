@@ -152,8 +152,14 @@ ul{
 }
 
 #luz{
+<<<<<<< HEAD
+    float: left;
+    margin: 0 0 1em 1em;
+    width: 5%;
+=======
     margin: 0 0 0 1em;
     width: 8%;
+>>>>>>> master
     height: auto;
     cursor: pointer;
 }
@@ -198,10 +204,10 @@ ul{
 }
 
 .atelie {
-    background: white;
+    
 	width: 80%;
-	min-width: 300px;
-	padding: 10px;
+	min-width: 400px;
+	
     border: 10px solid var(--background-color);
     max-height: calc(100vh - 200px);
     overflow-y: auto;
@@ -319,4 +325,33 @@ td{
 
 .divArrows{
     text-align: center;
+<<<<<<< HEAD
+}
+
+.foto_cliente1{
+    
+    width: 50%;
+}
+
+.foto_cliente2{
+    
+    width: 50%;
+}
+
+.foto_cliente3{
+    
+    width: 50%;
+}
+
+.feed2{
+    width: 50%;
+}
+
+#carouselD{
+  width:80%;  
+}
+
+.logo{
+    float: inline-start;
+    width: 45%;
 }

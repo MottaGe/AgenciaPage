@@ -19,6 +19,8 @@
     #luz{
         
         width: 15%;
+        margin: 0 0 0 1em;
+
     }
 
 
@@ -48,5 +50,8 @@
         margin-top: 10px;
     }
 
+    .logo{
+        width: 100%;
+    }
 
 }
