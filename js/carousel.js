@@ -1,13 +1,7 @@
 $(document).ready(function(){    
-<<<<<<< HEAD
     $('#carouselD').slick({
         
         
-=======
-    /*$('#carouselDa').slick({
-        
-        infinite: true,
->>>>>>> master
     
         slidesToShow: 3,
 
@@ -15,22 +9,13 @@ $(document).ready(function(){
 
         centerMode:true,
         
-<<<<<<< HEAD
         prevArrow: $('#left-arrowa'),
         nextArrow: $('#right-arrowa'),
-=======
-        prevArrow: $('#left-arrow'),
-        nextArrow: $('#right-arrow'),
->>>>>>> master
     
 
 
     
-<<<<<<< HEAD
     });
-=======
-    });*/
->>>>>>> master
 
     $('#carouselDm').slick({
         

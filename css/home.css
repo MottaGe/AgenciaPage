@@ -152,14 +152,8 @@ ul{
 }
 
 #luz{
-<<<<<<< HEAD
-    float: left;
-    margin: 0 0 1em 1em;
-    width: 5%;
-=======
     margin: 0 0 0 1em;
     width: 8%;
->>>>>>> master
     height: auto;
     cursor: pointer;
 }
@@ -325,7 +319,7 @@ td{
 
 .divArrows{
     text-align: center;
-<<<<<<< HEAD
+
 }
 
 .foto_cliente1{
