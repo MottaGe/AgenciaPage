@@ -1,6 +1,8 @@
 $(document).ready(function(){    
     $('#carouselD').slick({
         
+        infinite: true,
+
         
     
         slidesToShow: 3,
@@ -35,7 +37,13 @@ $(document).ready(function(){
     
     });
 
+    
+
     $('#carouselDm').on('afterChange', function(){
-        console.log ("mudou")
+        console.log ("mudou moni")
+    });
+
+    $('#carouselD').on('afterChange', function(){
+        
     });
 });

@@ -153,7 +153,7 @@ ul{
 
 #luz{
     margin: 0 0 0 1em;
-    width: 8%;
+    width: 5%;
     height: auto;
     cursor: pointer;
 }
@@ -307,7 +307,7 @@ td{
 
 .carousel .foto_carr{
     transform: scale(0.7);
-    transition: 3s;
+    transition: 1s;
 }
 
 .carousel .slick-center{
@@ -338,14 +338,25 @@ td{
 }
 
 .feed2{
-    width: 50%;
+    
 }
 
-#carouselD{
-  width:80%;  
-}
+
 
 .logo{
-    float: inline-start;
+    
     width: 45%;
+}
+
+.carousel2 .foto_carr2{
+    transform: scale(0.7);
+    transition: 1s;
+}
+
+.carousel2 .slick-center{
+    transform: scale(1);
+}
+
+#fotoA{
+
 }
