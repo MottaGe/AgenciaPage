@@ -158,119 +158,35 @@ ul{
     cursor: pointer;
 }
 
-.modalMoni{
-    width: 100vw;
-	height: 100vh;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	align-items: center;
-	background: rgba(0, 0, 0, .5);
-	display: none;
-	box-align: center;
-    justify-content: center;
-    
-}
 
-.modalAtelie{
-    width: 100vw;
-	height: 100vh;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	align-items: center;
-	background: rgba(0, 0, 0, .5);
-	display: none;
-	box-align: center;
-    justify-content: center;
-    
+
+.divImg{
+    display: inline;
 }
 
 
-
-
-.show{
-    display: flex;
-}
 
 .atelie {
     
-	width: 80%;
+	width: 100%;
 	min-width: 400px;
 	
-    border: 10px solid var(--background-color);
+    
     max-height: calc(100vh - 200px);
     overflow-y: auto;
     
 }
 
 .moni {
-    background: white;
-	width: 80%;
+
+	width: 100%;
 	min-width: 300px;
-	padding: 10px;
-    border: 10px solid var(--background-color);
+	
     max-height: calc(100vh - 200px);
     overflow-y: auto;
     
 }
 
-@keyframes moni {from { opacity:0;
-	transform: translate3d(0, -60px, 0);
-}
-
-to {
-	opacity: 1;
-	transform: translate3d(0, 0, 0);
-}
-}
-
-.show .moni {
-	animation: moni .3s;
-}
-
-
-
-
-@keyframes atelie {from { opacity:0;
-	transform: translate3d(0, -60px, 0);
-}
-
-to {
-	opacity: 1;
-	transform: translate3d(0, 0, 0);
-}
-}
-
-.show .atelie {
-	animation: atelie .3s;
-}
-
-
-.cabecalhoModal{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-.bodyModal {
-    display: inline-block;
-    text-align: center;
-}
-
-
-
-.bodyModal img{
-    
-    width: 30%;
-
-
-}
-
-.dark #moni{
-    background: var(--dark-color);
-}
 
 td{
     width: 100vh;
@@ -278,64 +194,12 @@ td{
     padding: 25px;
 }
 
-#atelieImg{
-    
-    width: 110%;
-}
 
-.close{
-    padding: 15px 32px;
-    border-radius: 5px;
-    font-size: 20px;
-    background: white;
-    border: none;
-    cursor: pointer;
-}
-
-.dark #atelie{
-    background: var(--dark-color);
-}
 
 .cliente{
     padding-top: 10px;
 }
 
-
-.carousel .foto_carr{
-    transform: scale(0.7);
-    transition: 1s;
-}
-
-.carousel .slick-center{
-    transform: scale(1);
-}
-.arrow{
-    width: 5em;
-}
-
-.divArrows{
-    text-align: center;
-
-}
-
-.foto_cliente1{
-    
-    width: 50%;
-}
-
-.foto_cliente2{
-    
-    width: 50%;
-}
-
-.foto_cliente3{
-    
-    width: 50%;
-}
-
-.feed2{
-    
-}
 
 
 
@@ -344,18 +208,6 @@ td{
     width: 45%;
 }
 
-.carousel2 .foto_carr2{
-    transform: scale(0.7);
-    transition: 1s;
-}
-
-.carousel2 .slick-center{
-    transform: scale(1);
-}
-
-#fotoA{
-
-}
 
 .menu {
     position: fixed;
