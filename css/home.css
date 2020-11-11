@@ -11,21 +11,14 @@ html{
     background-color: var(--background-color);
 }
 
-h1 {
+h1, h2, h3{
     font-size: 36px;
     color: #FFFFFF;
     text-align: center;
 }
 
-h2 {
-    font-size: 36px;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-
-p{
-    font-size: 18;   
+h3{
+    font-size: 30px;
 }
 
 p{
@@ -93,7 +86,7 @@ form label, form legend {
     border: none;
 }
 
-.checkbox, .select{
+.checkboxForm, .select{
     padding: 5px 10px;
     margin:0 0 10px;
     cursor: pointer;
