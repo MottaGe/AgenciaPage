@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const html = document.querySelector('html')
   const modal = document.getElementById('moni')
-  const inputDarkMode = document.getElementById('input-dark-mode')
+  const inputDarkMode = document.getElementById('chk')
       
   inputDarkMode.addEventListener('change', () => {
       if(inputDarkMode.checked){

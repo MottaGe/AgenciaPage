@@ -9,10 +9,12 @@
         align-items: center;
         margin: 10px auto 10px auto;
         float: none;
+        width: 85%;
     }
 
     p{
         text-align: center;
+        
         
     }
 
@@ -54,4 +56,6 @@
         width: 100%;
     }
 
+
 }
+  
