@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="./css/home.css">
     <link rel="stylesheet" type="text/css" href="./css/mobile.css">
     <link rel="stylesheet" type="text/css" href="./css/floatingMenu.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css">
 
     <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
     <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
@@ -22,13 +23,14 @@
             <li><a class="scroll" href="#trabalhos">Nossos clientes</a></li>
             <li><a class="scroll" href="#contato">Entre em contato</a></li>
             <li> <input type="checkbox" class="checkbox" id="chk" />
-                <label class="label" for="chk">
+                <!-- <label class="label" for="chk">
                     <i class="fas fa-moon"></i>
                     <i class="fas fa-sun"></i>
                     <div class="ball"></div>
                     
+                
                 </label>
-                </label>
+            -->
                
             </li>
         </nav>
@@ -111,8 +113,9 @@
         </ul>
         </section>
         
-        <section>
-        <form class="contato" id="contato" netlify>
+        <section id="contato" class="thumbnail">
+        <form class="contato" netlify>
+            <h2>Entre em contato conosco</h2>
                     
             <label for="nome">Nome Completo</label>
             <input type="text" name="Nome" id="nome" class="input-padrao" required>
@@ -156,12 +159,66 @@
         <br><input  type="submit" id="" value="Enviar formulário" class="enviar "> 
     </form>
     </section>
+    <!-- Modal Monique
+    <div class="modalMoni" id="modal-moni">
+        <div class="moni" id="moni">
+            <div class="cabecalhoModal">
+                <p>Monique Mega Hair</p>
+                <button type="button" id="close" class="close">Fechar</button>
+            </div>
+            <div class="bodyModal">
+                <p>Antes</p>
+                
+                <img src="./imagens/monique/antes/feed2.png"></li> 
+                <img src="./imagens/monique/antes/people1.jpeg"></li>
+                <img src="./imagens/monique/antes/people2.jpeg"></li>
+                <img src="./imagens/monique/antes/people3.jpeg"></li>
+                
+                <p>Depois</p>
+                <img src="./imagens/monique/depois/feed.png">
+                <img src="./imagens/monique/depois/people1.jpeg"></li>
+                <img src="./imagens/monique/depois/people2.jpeg"></li>
+                <img src="./imagens/monique/depois/people3.jpeg"></li>
+
+            </div>
+        </div>
+    </div>
+    <Fim modal Monique>
+
+
+    <Modal atelie>
+    <div class="modalAtelie" id="modal-atelie">
+        <div class="atelie" id="atelie">
+            <div class="cabecalhoModal">
+                <p>Ateliê Bella Unhas</p>
+                <button type="button" id="Fechar" class="close">Fechar</button>
+            </div>
+            <div class="bodyModal">
+                <table>
+                    <tr>
+                        <td><img id="atelieImg" src="./imagens/atelie/logoAntigo.jpeg"></td>    
+                        <td><img id="atelieImg" src="./imagens/atelie/logo.jpeg"></td>                  
+                        <td><img id="atelieImg" src="./imagens/atelie/logoinsta.jpeg"></td>
+                    </tr>
+                    <tr>
+                        <td><p>Logo antes de rebranding</p></td>
+                        <td><p>Logo apos o rebranding</p></td>
+                        <td><p>Logo responsivo</p></td>
+                    </tr>
+                </table>
+                
+
+            </div>
+        </div>
+    </div>
+    Fim modal atelie-->
     </main>
 </body>
 
 <script src="https://kit.fontawesome.com/049a3eb3ab.js" crossorigin="anonymous"></script>
 
 <script src="./js/jquery/jquery.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 <script src="./js/jquery/jquery.mask.js"></script>
 <script src="./js/jquery/slick.min.js"></script>
 
