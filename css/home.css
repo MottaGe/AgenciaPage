@@ -5,192 +5,202 @@
     --dark-p-color: #FFFFFF;
 }
 
+*{
+    box-sizing: none !important;
+    -webkit-box-sizing: none !important;
+
+}
+
+body{
+    background-color: var(--background-color) !important;
+}
+
 html{
-    width: 100%;
-    font-family: 'Brawler', serif;
-    background-color: var(--background-color);
+    width: 100% !important;
+    font-family: 'Brawler', serif !important;
+    background-color: var(--background-color) !important;
 }
 
 h1, h2, h3{
-    font-size: 36px;
-    color: #FFFFFF;
-    text-align: center;
+    font-size: 36px !important;
+    color: #FFFFFF !important;
+    text-align: center !important;
 }
 
 h3{
-    font-size: 30px;
+    font-size: 30px !important;
 }
 
 p{
-    color: var(--text-color);
-    font-size: 22px;
+    color: var(--text-color) !important;
+    font-size: 22px !important;
 
 }
 .apresentacao h1{
     
     
-    margin: 1px 0;
+    margin: 1px 0 !important;
 }
 
 section{
     
-    padding: 3em 0;
-    width: 940px;
-    margin: 0 auto;
+    padding: 3em 0 !important;
+    width: 940px !important;
+    margin: 0 auto !important;
 }
 
 
 .foto{
-    height: auto;
-    width: 300px;
-    float: left;
-    margin: 0px 20px 10px 0px;
+    height: auto !important;
+    width: 300px !important;
+    float: left !important;
+    margin: 0px 20px 10px 0px !important;
 }
 
 
 label{
-    color: var(--text-color);
+    color: var(--text-color) !important;
 }
 
 fieldset{
-    border-style: none;
+    border-style: none !important;
 }
 
 form{
     
-    margin-right: auto; 
-    margin-left: auto;
-    vertical-align: middle;
-    margin: 40px;
+    margin-right: auto !important; 
+    margin-left: auto !important;
+    vertical-align: middle !important;
+    margin: 40px !important;
 }
 
 form label {
-    display:block;
-    font-size: 20px;
-    margin: 10px 0 10px;
+    display:block !important;
+    font-size: 20px !important;
+    margin: 10px 0 10px !important;
 
 }
 
 
 form label, form legend {
-    display:block;
-    font-size: 20px;
-    margin: 10px 0 10px;
-    color: var(--text-color);
+    display:block !important;
+    font-size: 20px !important;
+    margin: 10px 0 10px !important;
+    color: var(--text-color) !important;
 }
 
 .input-padrao{
-    border-radius: 8px;
-    height: 35px;
-    width: 500px;
-    border: none;
+    border-radius: 8px !important;
+    height: 35px !important;
+    width: 500px !important;
+    border: none !important;
 }
 
 .checkboxForm, .select{
-    padding: 5px 10px;
-    margin:0 0 10px;
-    cursor: pointer;
+    padding: 5px 10px !important;
+    margin:0 0 10px !important;
+    cursor: pointer !important;
 }
 
 .enviar{
-    padding: 15px 32px;
-    border-radius: 5px;
-    font-size: 20px;
-    background: white;
-    border: none;
-    cursor: pointer;
+    padding: 15px 32px !important;
+    border-radius: 5px !important;
+    font-size: 20px !important;
+    background: white !important;
+    border: none !important;
+    cursor: pointer !important;
 }
 
 .enviar:hover{
-    background: white;
+    background: white !important;
 }
 
 ul{
     padding: 0px;
-    list-style-type: none;
+    list-style-type: none !important;
 }
 
 .carrossel{
    
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
 }
 
 .carrossel img{
-   margin: 10px;
+   margin: 10px !important;
 }
 
 .dark{
-    background: var(--dark-color);
+    background: var(--dark-color) !important;
     
 }
 
 .dark p{
-    color: var(--dark-p-color);
+    color: var(--dark-p-color) !important;
 
 }
 
 
 
 .dark form label{
-    color: var(--dark-p-color);
+    color: var(--dark-p-color) !important;
 }
 
 .dark form legend{
-    color:var(--dark-p-color);
+    color:var(--dark-p-color) !important;
 }
 
 
 #input-dark-mode{
-    display: none;
+    display: none !important;
 }
 
 #luz{
     
-    width: 4em;
-    height: auto;
-    cursor: pointer;
+    width: 4em !important;
+    height: auto !important;
+    cursor: pointer !important;
 }
 
 
 
 .divImg{
-    display: inline;
+    display: inline !important;
 }
 
 
 
 .atelie {
     
-	width: 100%;
-	min-width: 400px;
+	width: 100% !important;
+	min-width: 400px !important;
 	
     
-    max-height: calc(100vh - 200px);
-    overflow-y: auto;
+    max-height: calc(100vh - 200px) !important;
+    overflow-y: auto !important;
     
 }
 
 .moni {
 
-	width: 100%;
-	min-width: 300px;
+	width: 100% !important;
+	min-width: 300px !important;
 	
-    max-height: calc(100vh - 200px);
-    overflow-y: auto;
+    max-height: calc(100vh - 200px) !important;
+    overflow-y: auto !important;
     
 }
 
 
 td{
-    width: 100vh;
+    width: 100vh !important;
     
-    padding: 25px;
+    padding: 25px !important;
 }
 
 
 
 .cliente{
-    padding-top: 10px;
+    padding-top: 10px !important;
 }
 
 
@@ -198,31 +208,31 @@ td{
 
 .logo{
     
-    width: 45%;
+    width: 45% !important;
 }
 
 
 .menu {
-    position: fixed;
-    right: 1em;
-    top: 25%;
-    width: 15em;
-    margin-top: -2.5em;
-    background-color: whitesmoke;
-    border-radius: 2em 0px 0px 2em ;
+    position: fixed !important;
+    right: 1em !important;
+    top: 25% !important;
+    width: 15em !important;
+    margin-top: -2.5em !important;
+    background-color: whitesmoke !important;
+    border-radius: 2em 0px 0px 2em  !important;
   }
 
   li a{
-      text-decoration: none;
-      text-decoration-color: none;
-      color: var(--text-color);
+      text-decoration: none !important;
+      text-decoration-color: none !important;
+      color: var(--text-color) !important;
   }
 
   .menu li {
-    padding: 1.5em;
-    font-size: 25px;
-    list-style: none;
-    text-align: center;
+    padding: 1.5em !important;
+    font-size: 25px !important;
+    list-style: none !important;
+    text-align: center !important;
     
     
 
@@ -230,47 +240,52 @@ td{
   
 
   .checkbox {
-	opacity: 0;
-	position: absolute;
+	opacity: 0 !important;
+	position: absolute !important;
 }
 
 .label {
-	background-color: #111;
-	border-radius: 50px;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 0.27em;
-	position: relative;
-	height: 26px;
-	width: 63px;
-    transform: scale(1.5);
-    margin-left: 1.5em;
+	background-color: #111 !important;
+	border-radius: 50px !important;
+	cursor: pointer !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: space-between !important;
+	padding: 0.27em !important;
+	position: relative !important;
+	height: 26px !important;
+	width: 63px !important;
+    transform: scale(1.5) !important;
+    margin-left: 1.5em !important;
+    font-size: 95% !important;
 }
 
 .label .ball {
-	background-color: #fff;
-	border-radius: 50%;
-	position: absolute;
-	top: 0.15em;
+	background-color: #fff !important;
+	border-radius: 50% !important;
+	position: absolute !important;
+	top: 0.15em !important;
 	
-	left: 0em;
-	height: 1.3em;
-	width: 1.3em;
-	transform: translateX(0.2em);
-	transition: transform 0.25s linear;
+	left: 0em !important;
+	height: 1.3em !important;
+	width: 1.3em !important;
+	transform: translateX(0.2em) !important;
+	transition: transform 0.25s linear !important;
 }
 
 .checkbox:checked + .label .ball {
-	transform: translateX(1.5em);
+	transform: translateX(1.5em) !important;
 }
 
 
 .fa-moon {
-	color: #f1c40f;
+	color: #f1c40f !important;
 }
 
 .fa-sun {
-	color: #f39c12;
+	color: #f39c12 !important;
+}
+
+.thumbnail{
+    background-color: rgba(0, 0, 0, 0)  !important;
 }
