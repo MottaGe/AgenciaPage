@@ -32,7 +32,7 @@ h3{
 }
 
 p{
-    color: var(--text-color) !important;
+    color: var(--text-color) ;
     font-size: 22px !important;
 
 }
@@ -51,10 +51,20 @@ section{
 
 
 .foto{
+    
     height: auto !important;
     width: 300px !important;
     float: left !important;
     margin: 0px 20px 10px 0px !important;
+}
+
+#foto{
+    
+    height: auto !important;
+    width: 550px !important;
+    align-items: center;
+    margin-right:30% !important;
+    margin-left:20% !important;
 }
 
 
@@ -288,4 +298,15 @@ td{
 
 .thumbnail{
     background-color: rgba(0, 0, 0, 0)  !important;
+}
+
+
+div.txt_carroussel{
+    border-radius: 8px;
+    background-color: rgba(3, 3, 3, 0.3);
+    
+}
+
+p.txt_carroussel {
+    color: #fff;
 }
