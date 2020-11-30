@@ -4,14 +4,14 @@
         width: 75%;
     }
 
-    .foto{
-        display: flex;
-        align-items: center;
-        margin: 10px auto 10px auto;
-        float: none;
-        width: 85%;
+    #foto{
+        height: auto ;
+        width: 100% ;
+        align-items: center ;
+        margin-right:30%  ;
+        margin-left: 0%;
     }
-
+    
     p{
         text-align: center;
         
@@ -45,7 +45,8 @@
     }
     
     .checkbox, .select{
-        padding-right: 0;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     
     .enviar{
@@ -54,6 +55,15 @@
 
     .logo{
         width: 100%;
+    }
+
+    div.txt_carroussel{
+        font-size: 10px !important;
+        
+    }
+    
+    p.txt_carroussel {
+        font-size: 10px !important
     }
 
 

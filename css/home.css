@@ -6,243 +6,237 @@
 }
 
 *{
-    box-sizing: none !important;
-    -webkit-box-sizing: none !important;
+    box-sizing: inherit !important;
+    -webkit-box-sizing: inherit !important;
 
 }
 
+
+
 body{
-    background-color: var(--background-color) !important;
+    background-color: var(--background-color) !important ;
 }
 
 html{
-    width: 100% !important;
-    font-family: 'Brawler', serif !important;
-    background-color: var(--background-color) !important;
+    width: 100% ;
+    font-family: 'Brawler', serif ;
+    background-color: var(--background-color) ;
 }
 
 h1, h2, h3{
-    font-size: 36px !important;
-    color: #FFFFFF !important;
-    text-align: center !important;
+    font-size: 36px ;
+    color: #FFFFFF ;
+    text-align: center ;
 }
 
 h3{
-    font-size: 30px !important;
+    font-size: 30px ;
 }
 
 p{
     color: var(--text-color) ;
-    font-size: 22px !important;
+    font-size: 22px ;
 
 }
 .apresentacao h1{
     
     
-    margin: 1px 0 !important;
+    margin: 1px 0 ;
 }
 
 section{
     
-    padding: 3em 0 !important;
-    width: 940px !important;
-    margin: 0 auto !important;
+    padding: 3em 0 ;
+    width: 940px ;
+    margin: 0 auto ;
 }
 
 
 .foto{
     
-    height: auto !important;
-    width: 300px !important;
-    float: left !important;
-    margin: 0px 20px 10px 0px !important;
+    height: auto ;
+    width: 300px ;
+    float: left ;
+    margin: 0px 20px 10px 0px ;
 }
 
 #foto{
     
-    height: auto !important;
-    width: 550px !important;
-    align-items: center;
-    margin-right:30% !important;
-    margin-left:20% !important;
+    height: auto ;
+    width: 550px ;
+    align-items: center ;
+    margin-right:30%  ;
+    margin-left:20% ;
 }
 
 
 label{
-    color: var(--text-color) !important;
+    color: var(--text-color) ;
 }
 
 fieldset{
-    border-style: none !important;
+    border-style: none ;
 }
 
 form{
     
-    margin-right: auto !important; 
-    margin-left: auto !important;
-    vertical-align: middle !important;
-    margin: 40px !important;
+    margin-right: auto ; 
+    margin-left: auto ;
+    vertical-align: middle ;
+    margin: 40px ;
 }
 
 form label {
-    display:block !important;
-    font-size: 20px !important;
-    margin: 10px 0 10px !important;
+    display:block ;
+    font-size: 20px ;
+    margin: 10px 0 10px ;
 
 }
 
 
 form label, form legend {
-    display:block !important;
-    font-size: 20px !important;
-    margin: 10px 0 10px !important;
-    color: var(--text-color) !important;
+    display:block ;
+    font-size: 20px ;
+    margin: 10px 0 10px ;
+    color: var(--text-color) ;
 }
 
 .input-padrao{
-    border-radius: 8px !important;
-    height: 35px !important;
-    width: 500px !important;
-    border: none !important;
+    border-radius: 8px ;
+    height: 35px ;
+    width: 500px ;
+    border: none ;
 }
 
 .checkboxForm, .select{
-    padding: 5px 10px !important;
-    margin:0 0 10px !important;
-    cursor: pointer !important;
+    padding: 5px 10px ;
+    margin:0 0 10px ;
+    cursor: pointer ;
 }
 
 .enviar{
-    padding: 15px 32px !important;
-    border-radius: 5px !important;
-    font-size: 20px !important;
-    background: white !important;
-    border: none !important;
-    cursor: pointer !important;
+    padding: 15px 32px ;
+    border-radius: 5px ;
+    font-size: 20px ;
+    background: white ;
+    border: none ;
+    cursor: pointer ;
 }
 
 .enviar:hover{
-    background: white !important;
+    background: white ;
 }
 
 ul{
     padding: 0px;
-    list-style-type: none !important;
+    list-style-type: none ;
 }
 
 .carrossel{
    
-    margin-bottom: 10px !important;
+    margin-bottom: 10px ;
 }
 
 .carrossel img{
-   margin: 10px !important;
+   margin: 10px ;
 }
 
 .dark{
-    background: var(--dark-color) !important;
+    background: var(--dark-color) ;
     
 }
 
 .dark p{
-    color: var(--dark-p-color) !important;
+    color: var(--dark-p-color) ;
 
 }
 
 
 
 .dark form label{
-    color: var(--dark-p-color) !important;
+    color: var(--dark-p-color) ;
 }
 
 .dark form legend{
-    color:var(--dark-p-color) !important;
+    color:var(--dark-p-color) ;
 }
 
 
 #input-dark-mode{
-    display: none !important;
+    display: none ;
 }
 
 #luz{
     
-    width: 4em !important;
-    height: auto !important;
-    cursor: pointer !important;
+    width: 4em ;
+    height: auto ;
+    cursor: pointer ;
 }
 
 
 
 .divImg{
-    display: inline !important;
+    display: inline ;
 }
 
 
 
 .atelie {
     
-	width: 100% !important;
-	min-width: 400px !important;
+	width: 100% ;
+	min-width: 400px ;
 	
     
-    max-height: calc(100vh - 200px) !important;
-    overflow-y: auto !important;
+    max-height: calc(100vh - 200px) ;
+    overflow-y: auto ;
     
 }
 
 .moni {
 
-	width: 100% !important;
-	min-width: 300px !important;
+	width: 100% ;
+	min-width: 300px ;
 	
-    max-height: calc(100vh - 200px) !important;
-    overflow-y: auto !important;
+    max-height: calc(100vh - 200px) ;
+    overflow-y: auto ;
     
 }
 
 
 td{
-    width: 100vh !important;
+    width: 100vh ;
     
-    padding: 25px !important;
+    padding: 25px ;
 }
 
 
 
 .cliente{
-    padding-top: 10px !important;
+    padding-top: 10px ;
 }
 
 
 
 
 .logo{
-    
-    width: 45% !important;
+    margin-top: 2em;
+    width: 45% ;
 }
 
 
-.menu {
-    position: fixed !important;
-    right: 1em !important;
-    top: 25% !important;
-    width: 15em !important;
-    margin-top: -2.5em !important;
-    background-color: whitesmoke !important;
-    border-radius: 2em 0px 0px 2em  !important;
-  }
+
 
   li a{
-      text-decoration: none !important;
-      text-decoration-color: none !important;
-      color: var(--text-color) !important;
+      text-decoration: none ;
+      text-decoration-color: none ;
+      color: var(--text-color) ;
   }
 
   .menu li {
-    padding: 1.5em !important;
-    font-size: 25px !important;
-    list-style: none !important;
-    text-align: center !important;
+    padding: 1.5em ;
+    font-size: 25px ;
+    list-style: none ;
+    text-align: center ;
     
     
 
@@ -250,50 +244,50 @@ td{
   
 
   .checkbox {
-	opacity: 0 !important;
-	position: absolute !important;
+	opacity: 0 ;
+	position: absolute ;
 }
 
 .label {
-	background-color: #111 !important;
-	border-radius: 50px !important;
-	cursor: pointer !important;
-	display: flex !important;
-	align-items: center !important;
-	justify-content: space-between !important;
-	padding: 0.27em !important;
-	position: relative !important;
-	height: 26px !important;
-	width: 63px !important;
-    transform: scale(1.5) !important;
-    margin-left: 1.5em !important;
-    font-size: 95% !important;
+	background-color: #111 ;
+	border-radius: 50px ;
+	cursor: pointer ;
+	display: flex ;
+	align-items: center ;
+	justify-content: space-between ;
+	padding: 0.27em ;
+	position: relative ;
+	height: 26px ;
+	width: 63px ;
+    transform: scale(1.5) ;
+    margin-left: 1.5em ;
+    font-size: 95% ;
 }
 
 .label .ball {
-	background-color: #fff !important;
-	border-radius: 50% !important;
-	position: absolute !important;
-	top: 0.15em !important;
+	background-color: #fff ;
+	border-radius: 50% ;
+	position: absolute ;
+	top: 0.15em ;
 	
-	left: 0em !important;
-	height: 1.3em !important;
-	width: 1.3em !important;
-	transform: translateX(0.2em) !important;
-	transition: transform 0.25s linear !important;
+	left: 0em ;
+	height: 1.3em ;
+	width: 1.3em ;
+	transform: translateX(0.2em) ;
+	transition: transform 0.25s linear ;
 }
 
 .checkbox:checked + .label .ball {
-	transform: translateX(1.5em) !important;
+	transform: translateX(1.5em) ;
 }
 
 
 .fa-moon {
-	color: #f1c40f !important;
+	color: #f1c40f ;
 }
 
 .fa-sun {
-	color: #f39c12 !important;
+	color: #f39c12 ;
 }
 
 .thumbnail{
@@ -310,3 +304,20 @@ div.txt_carroussel{
 p.txt_carroussel {
     color: #fff;
 }
+
+.navnew{
+    background-color: var(--dark-p-color) !important;
+    align-items: center;
+}
+
+
+.menu {
+    position: fixed ;
+    right: 1em ;
+    top: 25% ;
+    width: 15em ;
+    margin-top: -2.5em ;
+    background-color: whitesmoke ;
+    border-radius: 2em 0px 0px 2em  ;
+    z-index: 1000 !important;
+  }

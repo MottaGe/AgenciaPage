@@ -48,18 +48,19 @@
     }
     
 
+    .menu {
+        position: fixed;
+        right: 1em;
+        top: 9%;
+        width: 10em;
+       
+        background-color: whitesmoke;
+        border-radius: 2em 0px 0px 2em ;
+        
+      }
 
 
 
-.menu {
-    position: fixed;
-    right: 1em;
-    top: 25%;
-    width: 10em;
-    margin-top: -2.5em;
-    background-color: whitesmoke;
-    border-radius: 2em 0px 0px 2em ;
-  }
 
   li a{
       text-decoration: none;
@@ -68,13 +69,19 @@
   }
 
   .menu li {
-    padding: 1.5em;
+    padding: 0.5em;
     font-size: 16px;
     
     text-align: center;
-    
-    
+
 
   }
+  
+  span{
+      color:black;
+  }
 
+
+  
 }
+
